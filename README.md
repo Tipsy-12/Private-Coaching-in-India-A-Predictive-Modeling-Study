@@ -4,7 +4,7 @@ This repository contains a machine learning analysis of the determinants of priv
 
 ## Objective
 
-To identify key socio-economic, demographic, and institutional factors that influence a student's likelihood of attending private coaching, using a **logistic regression model**.
+To identify key socio-economic, demographic, and institutional factors that influence a student's likelihood of attending private coaching, using a **logistic regression model, random forest classifier, and gradient boosting classifier**.
 
 ---
 
