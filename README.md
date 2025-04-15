@@ -17,12 +17,12 @@ To identify key socio-economic, demographic, and institutional factors that infl
 
 - **Data Preprocessing**: Handling missing values, log-transforming skewed variables, encoding categorical features, and standardizing numeric data.
 - **EDA**: Univariate, bivariate, and descriptive analysis with visualizations.
-- **Modeling**: Logistic regression with cross-validation, hyperparameter tuning, oversampling using `RandomOverSampler`, and evaluation on a custom threshold.
+- **Modeling**: Logistic regression,Random Forest,Gradient Boosting with cross-validation, hyperparameter tuning, oversampling using `RandomOverSampler`, and evaluation on a custom threshold.
 - **Interpretation**: Coefficients, feature importances, and discussion in the Indian education policy context.
 
 ---
 
-## Model Performance
+## Best Model Performance(Random Forest)
 
 | Metric              | Training Set | Test Set |
 |---------------------|--------------|----------|
