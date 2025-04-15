@@ -1,19 +1,19 @@
-# 📚 Private Coaching in India: A Predictive Modeling Study
+# Private Coaching in India: A Predictive Modeling Study
 
 This repository contains a machine learning analysis of the determinants of private coaching among students in India, using microdata from the **NSS 75th Round on Education**.
 
-## 🔍 Objective
+## Objective
 
 To identify key socio-economic, demographic, and institutional factors that influence a student's likelihood of attending private coaching, using a **logistic regression model**.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 
 ---
 
-## 🛠️ Methods
+## Methods
 
 - **Data Preprocessing**: Handling missing values, log-transforming skewed variables, encoding categorical features, and standardizing numeric data.
 - **EDA**: Univariate, bivariate, and descriptive analysis with visualizations.
@@ -22,7 +22,7 @@ To identify key socio-economic, demographic, and institutional factors that infl
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric              | Training Set | Test Set |
 |---------------------|--------------|----------|
@@ -32,11 +32,11 @@ To identify key socio-economic, demographic, and institutional factors that infl
 | F1 Score            | 49.61%       | 52.19%   |
 | AUC-ROC             | —            | **0.8063** |
 
-✅ A custom classification threshold of `0.6131` was used for probability-to-label conversion.
+A custom classification threshold of `0.6131` was used for probability-to-label conversion.
 
 ---
 
-## 🔑 Key Findings
+##  Key Findings
 
 - Coaching is most common among students aged **10–18**, especially in **Eastern states** and **urban areas**.
 - Strong predictors include:
@@ -49,7 +49,7 @@ To identify key socio-economic, demographic, and institutional factors that infl
 
 ---
 
-## ✅ Robustness Measures
+##  Robustness Measures
 
 - 5-fold cross-validation  
 - Randomized hyperparameter tuning  
@@ -59,7 +59,7 @@ To identify key socio-economic, demographic, and institutional factors that infl
 
 ---
 
-## 📚 Data Source
+##  Data Source
 
 - **Ministry of Statistics and Programme Implementation (MOSPI)**  
 - **NSS 75th Round: Household Social Consumption on Education (2017–18)**  
